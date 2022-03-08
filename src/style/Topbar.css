@@ -6,6 +6,7 @@
   top: 0;
   display: flex;
   align-items: center;
+  z-index: 999;
 }
 .topLeft,
 .topRight {

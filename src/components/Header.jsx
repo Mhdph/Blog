@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/Header.css";
+import header from "../image/Header.webp";
+
 function Header() {
   return (
     <div className="header">
@@ -7,7 +9,7 @@ function Header() {
         <span className="headerTitlesSm">React & Node</span>
         <span className="headerTitlesLg">Blog</span>
       </div>
-      <img className="headerImg" src="" alt="" />
+      <img className="headerImg" src={header} alt="" />
     </div>
   );
 }
