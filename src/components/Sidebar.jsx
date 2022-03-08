@@ -10,8 +10,8 @@ function Sidebar() {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
-          nostrum.
+          لورم ایپسوم این متن ساختگی است که نمیدانم چه مینویسم چون خودم متن
+          ساختگی را بوجود آوردم
         </p>
       </div>
       <div className="sidebarItem">
