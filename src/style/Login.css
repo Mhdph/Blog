@@ -1,0 +1,55 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(66, 66, 66, 0.5), rgba(255, 255, 255, 0.5)),
+    url("https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1622654430000/photosp/01eeab36-3ef2-4e86-a0b0-a3d516b3faba/stock-photo-one-person-large-display-screen-monitor-computer-speakers-from-behind-working-from-home-01eeab36-3ef2-4e86-a0b0-a3d516b3faba.jpg");
+  background-size: cover;
+}
+.loginTittle {
+  font-size: 50px;
+}
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.loginForm > label {
+  margin: 10px 0;
+}
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  text-align: center;
+}
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10;
+}
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.forgetPassword {
+  padding-top: 10px;
+}
+.forgetPassword > a {
+  text-decoration: none;
+  color: black;
+}
