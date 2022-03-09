@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/Register.css";
 function Register() {
   return (
@@ -26,7 +27,9 @@ function Register() {
         <button className="registerButton">ورود</button>
 
         <button className="registerLoginButton">
-          حساب کاربری دارید؟ وارد شوید
+          <Link className="link" to="/login">
+            حساب کاربری دارید؟ وارد شوید
+          </Link>
         </button>
       </form>
     </div>

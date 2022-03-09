@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/Login.css";
 export default function Login() {
   return (
@@ -21,7 +22,11 @@ export default function Login() {
         <span className="forgetPassword">
           <a href="">رمز عبور خود را فراموش کرده اید؟</a>
         </span>
-        <button className="loginRegisterButton">ثبت نام</button>
+        <button className="loginRegisterButton">
+          <Link className="link" to="/register">
+            ثبت نام
+          </Link>
+        </button>
       </form>
     </div>
   );
