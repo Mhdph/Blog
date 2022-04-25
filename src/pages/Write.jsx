@@ -18,7 +18,7 @@ function Write() {
             type="text"
             placeholder="عنوان"
             className="writeInput"
-            autoFocus="true"
+            autoFocus={true}
           />
         </div>
         <div className="writeFormGroup">
