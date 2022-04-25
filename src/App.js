@@ -7,6 +7,7 @@ import Settings from "./pages/Settings";
 import Single from "./pages/Single";
 import Write from "./pages/Write";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./style/App.css";
 class App extends Component {
   render() {
     return (
