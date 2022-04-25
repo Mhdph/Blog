@@ -42,6 +42,7 @@
   padding: 20px;
   width: 70vw;
   text-align: right;
+  font-family: "Shabnam", sans-serif;
 }
 .writeInput:focus {
   outline: none;
@@ -61,4 +62,5 @@
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+  font-family: "Shabnam", sans-serif;
 }
